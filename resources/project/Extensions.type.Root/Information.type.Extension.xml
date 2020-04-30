@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Info description="This project simulates an exponential spread similar to the spread of covid-19.&#xa;&#xa;You will find 3 project shortcuts:&#xa;- A single simulation with animation&#xa;- A MATLAB App that can be deployed using Simulink Compiler &#xa;- A design study running multiple simulations in parallel using parsim&#xa;&#xa;See this blog post for more details: &#xa;&#xa;https://blogs.mathworks.com/simulink/2020/03/23/covid-19-simulating-exponential-spread-in-simulink" />

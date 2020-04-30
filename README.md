@@ -1,4 +1,4 @@
-# Simulating the exponentioan spread of a virus-simulator
+# Simulating the exponential spread of a virus in Simulink
 
 View on MATLAB File Exchange
 

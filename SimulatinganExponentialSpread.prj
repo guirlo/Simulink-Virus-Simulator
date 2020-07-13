@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.webdeploy" plugin-version="1.0">
-  <configuration file="L:\projects\covid\repo\SimulatinganExponentialSpread.prj" location="L:\projects\covid\repo" name="SimulatinganExponentialSpread" target="target.webdeploy" target-name="Web App Compiler">
+  <configuration file="C:\Users\grouleau\OneDrive - MathWorks\Documents\MATLAB\Project\Blog\covid\github\SimulatinganExponentialSpread.prj" location="C:\Users\grouleau\OneDrive - MathWorks\Documents\MATLAB\Project\Blog\covid\github" name="SimulatinganExponentialSpread" target="target.webdeploy" target-name="Web App Compiler">
     <param.appname>Simulating_an_Exponential_Spread</param.appname>
     <param.intermediate>${PROJECT_ROOT}\SimulatinganExponentialSpread</param.intermediate>
     <param.files.only>${PROJECT_ROOT}\SimulatinganExponentialSpread</param.files.only>
@@ -32,7 +32,7 @@
     </fileset.depfun>
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\SimulatinganExponentialSpread" name="Simulating_an_Exponential_Spread.ctf" optional="false">L:\projects\covid\repo\SimulatinganExponentialSpread\Simulating_an_Exponential_Spread.ctf</file>
+      <file location="${PROJECT_ROOT}\SimulatinganExponentialSpread" name="Simulating_an_Exponential_Spread.ctf" optional="false">C:\Users\grouleau\OneDrive - MathWorks\Documents\MATLAB\Project\Blog\covid\github\SimulatinganExponentialSpread\Simulating_an_Exponential_Spread.ctf</file>
     </build-deliverables>
     <workflow />
     <matlab>

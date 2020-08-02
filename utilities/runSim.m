@@ -1,4 +1,4 @@
-function runSim()
+function out = runSim(R,Vmax,serverTime)
 %
 % typical parameter values:
 % R = 0.02;   % Radius of the balls
@@ -7,15 +7,8 @@ function runSim()
 %
 % % Copyright 2020 The MathWorks, Inc.
 
-data = load('slInput.mat');
-
 mdl = 'propagationSimulator';
 modelData;  % load default model workspace
-
-% override with inputs
-R = data.R;
-Vmax = data.Vmax;
-serverTime = data.serverTime;
 
 clear x0 v0
 cnt = 0;
@@ -38,7 +31,7 @@ in = simulink.compiler.configureForDeployment(in);
 % 
 out = sim(in);
 
-save slOutput out
+% save slOutput out
 
 
 

@@ -1,11 +1,11 @@
 <deployment-project plugin="plugin.webdeploy" plugin-version="1.0">
-  <configuration file="C:\Users\grouleau\OneDrive - MathWorks\Documents\MATLAB\Project\Blog\covid\github\SimulatinganExponentialSpread.prj" location="C:\Users\grouleau\OneDrive - MathWorks\Documents\MATLAB\Project\Blog\covid\github" name="SimulatinganExponentialSpread" target="target.webdeploy" target-name="Web App Compiler">
+  <configuration build-checksum="3201756239" file="/mathworks/devel/sandbox/grouleau/Projects/covid_linux/SimulatinganExponentialSpread.prj" location="/mathworks/devel/sandbox/grouleau/Projects/covid_linux" name="SimulatinganExponentialSpread" target="target.webdeploy" target-name="Web App Compiler">
     <param.appname>Simulating_an_Exponential_Spread</param.appname>
-    <param.intermediate>${PROJECT_ROOT}\SimulatinganExponentialSpread</param.intermediate>
-    <param.files.only>${PROJECT_ROOT}\SimulatinganExponentialSpread</param.files.only>
+    <param.intermediate>${PROJECT_ROOT}/SimulatinganExponentialSpread</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}/SimulatinganExponentialSpread</param.files.only>
     <param.output />
     <param.checkbox>false</param.checkbox>
-    <param.logdir>${PROJECT_ROOT}\SimulatinganExponentialSpread</param.logdir>
+    <param.logdir>${PROJECT_ROOT}/SimulatinganExponentialSpread</param.logdir>
     <param.target.type>subtarget.web.app</param.target.type>
     <param.user.defined.mcr.options />
     <param.support.packages />
@@ -20,23 +20,23 @@
       <param.support.packages />
     </unset>
     <fileset.web.main>
-      <file>${PROJECT_ROOT}\virusSpread.mlapp</file>
+      <file>${PROJECT_ROOT}/virusSpread.mlapp</file>
     </fileset.web.main>
     <fileset.resources />
     <fileset.depfun>
-      <file>${PROJECT_ROOT}\propagationSimulator.slx</file>
-      <file>${PROJECT_ROOT}\utilities\getRand.m</file>
-      <file>${PROJECT_ROOT}\utilities\modelData.m</file>
-      <file>${PROJECT_ROOT}\utilities\runSim.m</file>
-      <file>${PROJECT_ROOT}\utilities\waitIcon2.gif</file>
+      <file>${PROJECT_ROOT}/propagationSimulator.slx</file>
+      <file>${PROJECT_ROOT}/utilities/getRand.m</file>
+      <file>${PROJECT_ROOT}/utilities/modelData.m</file>
+      <file>${PROJECT_ROOT}/utilities/runSim.m</file>
+      <file>${PROJECT_ROOT}/utilities/waitIcon2.gif</file>
     </fileset.depfun>
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\SimulatinganExponentialSpread" name="Simulating_an_Exponential_Spread.ctf" optional="false">C:\Users\grouleau\OneDrive - MathWorks\Documents\MATLAB\Project\Blog\covid\github\SimulatinganExponentialSpread\Simulating_an_Exponential_Spread.ctf</file>
+      <file location="${PROJECT_ROOT}/SimulatinganExponentialSpread" name="Simulating_an_Exponential_Spread.ctf" optional="false">/mathworks/devel/sandbox/grouleau/Projects/covid_linux/SimulatinganExponentialSpread/Simulating_an_Exponential_Spread.ctf</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>L:\MATLAB\R2020a</root>
+      <root>/mathworks/devel/jobarchive/BR2020ad/.zfs/snapshot/BR2020ad.1442783.pass.ja1/current/build/matlab</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
         <toolbox name="embeddedcoder" />
@@ -44,6 +44,7 @@
         <toolbox name="fixedpoint" />
         <toolbox name="matlabhdlcoder" />
         <toolbox name="neuralnetwork" />
+        <toolbox name="polyspacebugfinder" />
       </toolboxes>
       <toolbox>
         <matlabcoder>
@@ -75,20 +76,25 @@
           <enabled>true</enabled>
         </neuralnetwork>
       </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
     </matlab>
     <platform>
-      <unix>false</unix>
+      <unix>true</unix>
       <mac>false</mac>
-      <windows>true</windows>
+      <windows>false</windows>
       <win2k>false</win2k>
       <winxp>false</winxp>
       <vista>false</vista>
-      <linux>false</linux>
+      <linux>true</linux>
       <solaris>false</solaris>
-      <osver>10.0</osver>
+      <osver>4.19.0-9-amd64</osver>
       <os32>false</os32>
       <os64>true</os64>
-      <arch>win64</arch>
+      <arch>glnxa64</arch>
       <matlab>true</matlab>
     </platform>
   </configuration>

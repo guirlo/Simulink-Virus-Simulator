@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.webdeploy" plugin-version="1.0">
-  <configuration build-checksum="3134299341" file="/mathworks/devel/sandbox/grouleau/Projects/covid_linux/SimulatinganExponentialSpread.prj" location="/mathworks/devel/sandbox/grouleau/Projects/covid_linux" name="SimulatinganExponentialSpread" target="target.webdeploy" target-name="Web App Compiler">
+  <configuration build-checksum="3033927783" file="/mathworks/devel/sandbox/grouleau/Projects/covid_linux/SimulatinganExponentialSpread.prj" location="/mathworks/devel/sandbox/grouleau/Projects/covid_linux" name="SimulatinganExponentialSpread" target="target.webdeploy" target-name="Web App Compiler">
     <param.appname>Simulating_an_Exponential_Spread</param.appname>
     <param.intermediate>${PROJECT_ROOT}/SimulatinganExponentialSpread</param.intermediate>
     <param.files.only>${PROJECT_ROOT}/SimulatinganExponentialSpread</param.files.only>
@@ -22,7 +22,9 @@
     <fileset.web.main>
       <file>${PROJECT_ROOT}/virusSpread.mlapp</file>
     </fileset.web.main>
-    <fileset.resources />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/defaultResults.mat</file>
+    </fileset.resources>
     <fileset.depfun>
       <file>${PROJECT_ROOT}/propagationSimulator.slx</file>
       <file>${PROJECT_ROOT}/utilities/getRand.m</file>
@@ -36,7 +38,7 @@
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>/mathworks/devel/jobarchive/BR2020ad/.zfs/snapshot/BR2020ad.1442783.pass.ja1/current/build/matlab</root>
+      <root>/mathworks/devel/sbs/37/grouleau.BR2020ad.j1499878/matlab</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
         <toolbox name="embeddedcoder" />
